@@ -1,0 +1,85 @@
+$red: hsl(0, 100%, 74%);
+$green: hsl(154, 59%, 51%);
+$blue: hsl(248, 32%, 49%);
+$dark-blue: hsl(249, 10%, 26%);
+$grayish-blue: hsl(246, 25%, 77%);
+
+$font-poppins: 'Poppins', sans-serif;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: $red;
+	background-image: url(../images/bg-intro-mobile.png);
+	color: #fff;
+	font-family: $font-poppins;
+	font-size: 16px;
+	padding: 110px 25px 0;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hero {
+	&__column {
+		margin-bottom: 70px;
+	}
+	&__main-title {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+}
+
+.form {
+	&__box {
+		background-color: #fff;
+		border-radius: 7px;
+		box-shadow: 0px 6px rgba(0, 0, 0, 0.2);
+		padding: 25px;
+		&--blue {
+			background-color: $blue;
+			margin-bottom: 25px;
+			padding: 20px 25px;
+		}
+	}
+	&__input {
+		display: block;
+		border: 1px solid #ddd;
+		border-radius: 6px;
+		font-family: $font-poppins;
+		margin-bottom: 18px;
+		padding: 20px;
+		width: 100%;
+		&--submit {
+			display: block;
+			background-color: $green;
+			border: none;
+			color: #fff;
+			cursor: pointer;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+	}
+	&__description {
+		color: $grayish-blue;
+		font-size: 11px;
+	}
+	&__link {
+		color: $red;
+		font-weight: 600;
+	}
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: $blue;
+}
