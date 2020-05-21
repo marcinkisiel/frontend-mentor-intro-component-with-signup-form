@@ -26,7 +26,8 @@ a { text-decoration: none; }
 
 .attribution a { color: #6055a5; }
 
-@media (min-width: 1025px) { .hero { display: flex; justify-content: space-between; max-width: 1110px; margin: 0 auto; }
+@media (min-width: 1025px) { body { background-image: url(../images/bg-intro-desktop.png); }
+  .hero { display: flex; justify-content: space-between; max-width: 1110px; margin: 0 auto; }
   .hero__column { flex-basis: 48%; margin-bottom: 110px; }
   .hero__column--first { display: flex; flex-direction: column; justify-content: center; text-align: left; }
   .hero__main-title { font-size: 50px; line-height: 50px; margin: 15px 0 30px; }

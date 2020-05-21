@@ -94,6 +94,10 @@ a {
 }
 
 @media (min-width: 1025px) {
+	body {
+		background-image: url(../images/bg-intro-desktop.png);
+	}
+
 	.hero {
 		display: flex;
 		justify-content: space-between;
