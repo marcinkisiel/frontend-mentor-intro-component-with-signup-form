@@ -53,16 +53,23 @@ a {
 		border: 1px solid #ddd;
 		border-radius: 6px;
 		font-family: $font-poppins;
+		font-weight: 600;
 		margin-bottom: 18px;
 		padding: 20px;
 		width: 100%;
+
+		&:focus {
+			border: 1px solid #000;
+			outline: none;
+		}
+
 		&--submit {
 			display: block;
 			background-color: $green;
 			border: none;
 			color: #fff;
 			cursor: pointer;
-			font-weight: 500;
+			font-weight: 600;
 			text-transform: uppercase;
 		}
 	}
@@ -78,8 +85,47 @@ a {
 
 .attribution {
 	font-size: 11px;
+	margin-bottom: 10px;
 	text-align: center;
+
+	a {
+		color: $blue;
+	}
 }
-.attribution a {
-	color: $blue;
+
+@media (min-width: 1025px) {
+	.hero {
+		display: flex;
+		justify-content: space-between;
+		max-width: 1110px;
+		margin: 0 auto;
+
+		&__column {
+			flex-basis: 48%;
+			margin-bottom: 110px;
+
+			&--first {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				text-align: left;
+			}
+		}
+
+		&__main-title {
+			font-size: 50px;
+			line-height: 50px;
+			margin: 15px 0 30px;
+		}
+	}
+
+	.form {
+		&__box {
+			padding: 40px;
+
+			&--blue {
+				padding: 20px;
+			}
+		}
+	}
 }
