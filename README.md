@@ -9,6 +9,7 @@
 ### opis
 
 Jest to realizacja jednego z wyzwań z portalu **_[Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)_**.<br/>
+Realizując challenge nie bazuję na plikach projektu, ale korzystam z dołączonych niżej widoków w plikach **.jpg**, więc nie jest to rozwiązanie _pixel-perfect_.<br/>
 Na ten moment jest gotowa wizualna część wyzwania, brakuje obsługi i walidacji formularza za pomocą **JavaScriptu**.
 
 ### stan projektu
