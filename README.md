@@ -6,29 +6,29 @@
 
 [Intro component with sign-up form Live Demo](https://marcinkisiel.github.io/frontend-mentor-intro-component-with-signup-form/)
 
-### opis
+### description
 
-Jest to realizacja jednego z wyzwań z portalu **_[Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)_**.<br/>
-Realizując challenge nie bazuję na plikach projektu, ale korzystam z dołączonych niżej widoków w plikach **.jpg**, więc nie jest to rozwiązanie _pixel-perfect_.<br/>
-Na ten moment jest gotowa wizualna część wyzwania, brakuje obsługi i walidacji formularza za pomocą **JavaScriptu**.
+This is my solution for **_[Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)_** challenge, which was to build out simple component with sign-up form.<br/>
+I'm working without Sketch design source file, I based my solution on JPEG design files, so this is not a _pixel-perfect_ solution.<br/>
+At the moment, the visual part of the challenge is ready, but there is a lack of support and validation of the form with **JavaScript**.
 
-### stan projektu
+### current status
 
-nieukończony
+unfinished
 
-### czas realizacji projektu
+### implementaion time
 
-maj 2020 - nadal
+May 2020 - till now
 
-### technologie
+### technologies
 
 HTML, CSS, JavaScript
 
-### użyte narzędzia
+### tools used
 
 Sass (SCSS)
 
-### projekt graficzny
+### design
 
 Frontend Mentor
 <br/>
@@ -37,7 +37,7 @@ Frontend Mentor
 ![Design preview](design/active-states.jpg)
 ![Design preview](design/mobile-design.jpg)
 
-### kontakt
+### contact
 
 **Marcin Kisiel**:
 <br/>
